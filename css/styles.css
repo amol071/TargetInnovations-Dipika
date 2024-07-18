@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header p {
+    font-size: 0.9rem;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.container-fluid.bg-primary {
+    background-image: url('background.jpg'); /* replace with actual background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid.bg-primary h1 {
+    font-size: 3rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
