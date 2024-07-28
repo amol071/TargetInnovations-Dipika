@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -61,7 +60,7 @@ footer p {
     color: #dc3545 !important;
 }
 
-.text-white{
+.text-white {
     color: #fff !important;
 }
 
@@ -74,22 +73,63 @@ footer p {
     width: 100%;
 }
 
-
 .welcome-section .col-md-6 {
     padding: 0;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
 }
 
 .welcome-section img {
     object-fit: cover;
-    /* height: 100%;
-    width: 100%; */
 }
 
-.welcome-section .bg-light {
-    padding: 3rem;
-    text-align: left;
-    overflow-y: auto;
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-title {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a background to make the text stand out */
+}
+
+.bg-primary h2 {
+    margin-bottom: 0;
+}
+
+.bg-primary a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-box img {
+    width: 100px; /* Adjusted the width */
+    height: 100px; /* Adjusted the height */
+    margin-bottom: 10px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Removed max-height constraint to ensure images scale properly */
+img.img-fluid {
+    margin: 10px 0;
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
 }
